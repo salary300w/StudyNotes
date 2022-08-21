@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/hello-01.dir/hello.cpp.o  -o hello-01  -Wl,-rpath,/home/cdk991014/workspace/cmake-cook/build libMessageout-static.a libMessageout-shared.so libMessageout-obj-shared.so 

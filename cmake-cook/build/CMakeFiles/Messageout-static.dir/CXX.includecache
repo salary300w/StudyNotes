@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cdk991014/workspace/cmake-cook/Messageout_static.cpp
+Messageout_static.h
+/home/cdk991014/workspace/cmake-cook/Messageout_static.h
+iostream
+-
+
+/home/cdk991014/workspace/cmake-cook/Messageout_static.h
+iostream
+-
+

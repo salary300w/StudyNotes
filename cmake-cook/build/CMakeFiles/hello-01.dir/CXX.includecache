@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cdk991014/workspace/cmake-cook/Messageout.h
+iostream
+-
+
+/home/cdk991014/workspace/cmake-cook/Messageout_shared.h
+iostream
+-
+
+/home/cdk991014/workspace/cmake-cook/Messageout_static.h
+iostream
+-
+
+/home/cdk991014/workspace/cmake-cook/hello.cpp
+iostream
+-
+Messageout_static.h
+/home/cdk991014/workspace/cmake-cook/Messageout_static.h
+Messageout_shared.h
+/home/cdk991014/workspace/cmake-cook/Messageout_shared.h
+Messageout.h
+/home/cdk991014/workspace/cmake-cook/Messageout.h
+

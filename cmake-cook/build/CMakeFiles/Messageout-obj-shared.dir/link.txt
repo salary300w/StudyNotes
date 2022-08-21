@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libMessageout-obj-shared.so -o libMessageout-obj-shared.so CMakeFiles/Messageout-obj.dir/Messageout.cpp.o 

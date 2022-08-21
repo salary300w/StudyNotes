@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMessageout-static.a  CMakeFiles/Messageout-static.dir/Messageout_static.cpp.o
+/usr/bin/ranlib libMessageout-static.a
