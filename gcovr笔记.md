@@ -1,4 +1,4 @@
-#gcovr用法简介：
+# gcovr用法简介：
 ```bash
 gcovr --xml-pretty                      \
       --output coverage.xml             \
