@@ -37,7 +37,7 @@
 |`docker save -o 文件名 镜像名称:版本`|将镜像存储为文件|
 |`docker load -i 文件名`|将镜像文件加载为镜像|
 ##Dockerfile常见命令
-###使用`docker build -t 镜像名称 -f Dockerfile文件路径`命令可以根据Dockerfile规则生成镜像
+###使用`docker build -t 镜像名称 -f Dockerfile文件路径 .`命令可以根据Dockerfile规则生成镜像
 |指令|作用|
 |:---:|:---:|
 |`FROM 镜像名称`|依据的基础镜像|
