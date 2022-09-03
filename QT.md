@@ -1,4 +1,6 @@
 # QT学习笔记
+## 发布程序
+```windeployqt *.exe```指令发布程序
 ## 窗口
 ```c++
 QPushButton* btn = new QPushButton; //创建按钮对象
