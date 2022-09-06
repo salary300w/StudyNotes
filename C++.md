@@ -34,3 +34,16 @@
 * 传入左值，执行移动构造
 * 传入右值，执行拷贝构造
 * 传入构造函数所需参数，在容器尾部执行原地创建
+## 右值引用（实现std::move语义）
+```C++
+#include <iostream>
+int main()
+{
+    int a = 30;
+    int b;
+    b = (int &&)a; // 等同于b = std::move(a);执行移动构造
+    std::cout << a << std::endl;
+    std::cout << b << std::endl;
+    return 0;
+}
+```
