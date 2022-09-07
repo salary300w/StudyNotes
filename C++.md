@@ -34,6 +34,22 @@
 * 传入左值，执行移动构造
 * 传入右值，执行拷贝构造
 * 传入构造函数所需参数，在容器尾部执行原地创建
+### ```priority_queue<>```
+```C++
+//自定义compare的写法
+struct compare
+{
+    bool operator()(int &a, int &b)
+    {
+        return a > b;
+    }
+};
+priority_queue<int, vector<int>, compare> save;
+//lambda表达式写法
+auto compare = [](int &a, int &b)
+{ return a > b; };
+priority_queue<int, vector<int>, decltype(compare)> save(compare);
+```
 ## 右值引用（实现std::move语义）
 ```C++
 #include <iostream>
