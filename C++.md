@@ -1,3 +1,9 @@
+- [C++](#c)
+  - [关键字](#关键字)
+    - [```explicit```](#explicit)
+    - [```emplace_back```](#emplace_back)
+    - [```priority_queue<>```](#priority_queue)
+  - [右值引用（实现std::move语义）](#右值引用实现stdmove语义)
 # C++
 ## 关键字
 ### ```explicit```

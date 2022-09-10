@@ -1,6 +1,13 @@
+- [docker笔记](#docker笔记)
+  - [镜像命令](#镜像命令)
+  - [容器命令](#容器命令)
+      - [`docker run`常用的参数](#docker-run常用的参数)
+    - [操作指令](#操作指令)
+  - [容器转换为镜像](#容器转换为镜像)
+  - [Dockerfile常见命令](#dockerfile常见命令)
 # docker笔记
 ## 镜像命令
-### 相当于镜像的安装包，在docker部署的任何应用都需要先构建成为镜像
+- 相当于镜像的安装包，在docker部署的任何应用都需要先构建成为镜像
 |指令|作用|
 |:---:|:---:|
 |`docker search 镜像名称`|搜索镜像|
@@ -8,7 +15,7 @@
 |`docker images`|查看本地所有镜像|
 |`docker rmi -f 镜像名称`|删除镜像|
 ## 容器命令
-### 容器：是由镜像创建而来，容器是运行Docker运行应用的载体。
+- 容器：是由镜像创建而来，容器是运行Docker运行应用的载体。
 |指令|作用|
 |:---:|:---:|
 |`docker run -id 镜像名称`|后台运行容器|
@@ -37,7 +44,7 @@
 |`docker save -o 文件名 镜像名称:版本`|将镜像存储为文件|
 |`docker load -i 文件名`|将镜像文件加载为镜像|
 ## Dockerfile常见命令
-### 使用`docker build -t 镜像名称 -f Dockerfile文件路径 .`命令可以根据Dockerfile规则生成镜像
+- 使用`docker build -t 镜像名称 -f Dockerfile文件路径 .`命令可以根据Dockerfile规则生成镜像
 |指令|作用|
 |:---:|:---:|
 |`FROM 镜像名称`|依据的基础镜像|
