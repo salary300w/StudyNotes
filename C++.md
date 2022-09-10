@@ -4,6 +4,7 @@
     - [```emplace_back```](#emplace_back)
     - [```priority_queue<>```](#priority_queue)
   - [右值引用（实现std::move语义）](#右值引用实现stdmove语义)
+  - [正则表达式](#正则表达式)
 # C++
 ## 关键字
 ### ```explicit```
@@ -67,5 +68,18 @@ int main()
     std::cout << a << std::endl;
     std::cout << b << std::endl;
     return 0;
+}
+```
+## 正则表达式
+```C++
+#include "iostream"
+#include <regex>
+int main() {
+  std::string target{"abc123"};
+  std::regex rule(".*[0-9]*");
+  std::smatch result;
+  std::regex_match(target, result, rule);
+  std::cout << result[0].str() << std::endl;
+  return 0;
 }
 ```
