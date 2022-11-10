@@ -1,0 +1,531 @@
+{
+    "root": {
+        "data": {
+            "id": "co5q5mnxlyo0",
+            "created": 1667789838466,
+            "text": "main.cpp"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "co5q60o6vc80",
+                    "created": 1667789868957,
+                    "text": "MainModule::instance()"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "co5q6dg4kvs0",
+                            "created": 1667789896767,
+                            "text": "MainModule::MainModule()",
+                            "background": "#d99594"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "co5q6zlh3co0",
+                                    "created": 1667789944980,
+                                    "text": "this->initModules()",
+                                    "background": "#d99594"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "co5q7g3so480",
+                                            "created": 1667789980916,
+                                            "text": "ColorMapContainer::instance()",
+                                            "background": "#d99594",
+                                            "layout_right_offset": {
+                                                "x": -0.8333333002196923,
+                                                "y": -16.166666953100076
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "co5qe2zv6i00",
+                                                    "created": 1667790500930,
+                                                    "text": "ColorMapContainer::ColorMapContainer()",
+                                                    "background": "#d99594"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "co5qfjrunjc0",
+                                                            "created": 1667790615815,
+                                                            "text": "new ColorMapContainerPrivate()",
+                                                            "background": "#d99594"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "co5qlckoqi00",
+                                                            "created": 1667791070329,
+                                                            "text": "ColorMapGenerator的成员变量：ColorMapGenerator generator",
+                                                            "background": "#d99594"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "co5q7kfp7uw0",
+                                            "created": 1667789990343,
+                                            "text": "ImageModel::instance()",
+                                            "background": "#d99594"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "co5qh2zjkxc0",
+                                                    "created": 1667790736003,
+                                                    "text": "ImageModel::ImageModel()",
+                                                    "background": "#d99594"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "co5qh6k4vn40",
+                                                            "created": 1667790743778,
+                                                            "text": "new ImageModelPrivate()",
+                                                            "background": "#d99594"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "co5qhoj87080",
+                                                                    "created": 1667790782905,
+                                                                    "text": "imgCompose.setImageCache(&imgCache)",
+                                                                    "background": "#d99594"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "co5qtnhtw2o0",
+                                                                            "created": 1667791721014,
+                                                                            "text": "m_private->pCache = pCache",
+                                                                            "background": "#d99594"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "co5qtq8oka00",
+                                                                            "created": 1667791726991,
+                                                                            "text": "m_private->cImageCom.setImageCache(pCache)",
+                                                                            "background": "#d99594"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "co5qv0y7di80",
+                                                                                    "created": 1667791828666,
+                                                                                    "text": "m_pImageCache = pCache",
+                                                                                    "background": "#d99594"
+                                                                                },
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "co5qvc16bog0",
+                                                                                    "created": 1667791852791,
+                                                                                    "text": "CImageCompose的成员变量：ImageCache *m_pImageCache",
+                                                                                    "background": "#d99594"
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "co5qm83dvgw0",
+                                                            "created": 1667791138940,
+                                                            "text": "ImageModelPrivate的成员变量：ImageCache imgCache、ImageCompose imgCompose",
+                                                            "background": "#d99594"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "co5qq67oszk0",
+                                                    "created": 1667791448303,
+                                                    "text": "ImageModel成员变量：ImageModelPrivate *m_private",
+                                                    "background": "#b2a1c7"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "co5q7mo4cj40",
+                                            "created": 1667789995206,
+                                            "text": "UTParaManager::instance()",
+                                            "background": "#d99594"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "co5qi75etsw0",
+                                                    "created": 1667790823429,
+                                                    "text": "UTParaManager::UTParaManager()",
+                                                    "background": "#d99594"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "co5qi9pesf40",
+                                                            "created": 1667790828992,
+                                                            "text": "new UTParaManagerPrivate()",
+                                                            "background": "#d99594"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "co5qig1vfc00",
+                                                                    "created": 1667790842806,
+                                                                    "text": "new USDevHandle()",
+                                                                    "background": "#d99594"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "co5qy8rn5ug0",
+                                                                            "created": 1667792080776,
+                                                                            "text": "new USDevHandleProtect()",
+                                                                            "background": "#d99594"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "co5r3ubd77c0",
+                                                                                    "created": 1667792519502,
+                                                                                    "text": "pAWaveBuff(NULL)",
+                                                                                    "background": "#d99594"
+                                                                                },
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "co5r4y2ynbk0",
+                                                                                    "created": 1667792606065,
+                                                                                    "text": "pImageBuff(NULL)",
+                                                                                    "background": "#d99594"
+                                                                                },
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "co5r54l6k800",
+                                                                                    "created": 1667792620228,
+                                                                                    "text": "param_(new UtScanParameter())",
+                                                                                    "background": "#d99594"
+                                                                                },
+                                                                                "children": [
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "id": "co5vgt5iw200",
+                                                                                            "created": 1667804820146,
+                                                                                            "text": "UtScanParameter::UtScanParameter()",
+                                                                                            "background": "#d99594"
+                                                                                        },
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "data": {
+                                                                                                    "id": "co5vgvmua680",
+                                                                                                    "created": 1667804825547,
+                                                                                                    "text": "gaind(-12) //数字增益",
+                                                                                                    "background": "#d99594"
+                                                                                                },
+                                                                                                "children": []
+                                                                                            },
+                                                                                            {
+                                                                                                "data": {
+                                                                                                    "id": "co5vkc395200",
+                                                                                                    "created": 1667805096460,
+                                                                                                    "text": "gs_smooth_(0) //高斯平滑",
+                                                                                                    "background": "#d99594"
+                                                                                                },
+                                                                                                "children": []
+                                                                                            },
+                                                                                            {
+                                                                                                "data": {
+                                                                                                    "id": "co5vkjeuqa80",
+                                                                                                    "created": 1667805112399,
+                                                                                                    "text": "sf_image_(0) //软件成像",
+                                                                                                    "background": "#d99594"
+                                                                                                },
+                                                                                                "children": []
+                                                                                            },
+                                                                                            {
+                                                                                                "data": {
+                                                                                                    "id": "co5vkucmx9c0",
+                                                                                                    "created": 1667805136210,
+                                                                                                    "text": "scan_(NULL)",
+                                                                                                    "background": "#d99594"
+                                                                                                },
+                                                                                                "children": []
+                                                                                            },
+                                                                                            {
+                                                                                                "data": {
+                                                                                                    "id": "co5vl1wat8g0",
+                                                                                                    "created": 1667805152636,
+                                                                                                    "text": "eleAdjustIndex(0) //基线",
+                                                                                                    "background": "#d99594"
+                                                                                                },
+                                                                                                "children": []
+                                                                                            },
+                                                                                            {
+                                                                                                "data": {
+                                                                                                    "id": "co5vl6ibdsg0",
+                                                                                                    "created": 1667805162674,
+                                                                                                    "text": "countT(0) //收发孔径T",
+                                                                                                    "background": "#d99594"
+                                                                                                },
+                                                                                                "children": []
+                                                                                            },
+                                                                                            {
+                                                                                                "data": {
+                                                                                                    "id": "co5vlagb9yo0",
+                                                                                                    "created": 1667805171260,
+                                                                                                    "text": "countR(0) //收发孔径R",
+                                                                                                    "background": "#d99594"
+                                                                                                },
+                                                                                                "children": []
+                                                                                            },
+                                                                                            {
+                                                                                                "data": {
+                                                                                                    "id": "co5vlebmfhs0",
+                                                                                                    "created": 1667805179684,
+                                                                                                    "text": "m_avgtimes(1) //平均次数",
+                                                                                                    "background": "#d99594"
+                                                                                                },
+                                                                                                "children": []
+                                                                                            },
+                                                                                            {
+                                                                                                "data": {
+                                                                                                    "id": "co5vlgybivs0",
+                                                                                                    "created": 1667805185410,
+                                                                                                    "text": "eleFilter(3) //数字滤波器",
+                                                                                                    "background": "#d99594"
+                                                                                                },
+                                                                                                "children": []
+                                                                                            },
+                                                                                            {
+                                                                                                "data": {
+                                                                                                    "id": "co5vlknv7xs0",
+                                                                                                    "created": 1667805193485,
+                                                                                                    "text": "TRTimeSequence(0) //发射时序选择",
+                                                                                                    "background": "#d99594"
+                                                                                                },
+                                                                                                "children": []
+                                                                                            },
+                                                                                            {
+                                                                                                "data": {
+                                                                                                    "id": "co5vm1c83wg0",
+                                                                                                    "created": 1667805229786,
+                                                                                                    "text": "memset(m_cursorLineSwitch,false,4*sizeof(bool))",
+                                                                                                    "background": "#d99594"
+                                                                                                },
+                                                                                                "children": []
+                                                                                            },
+                                                                                            {
+                                                                                                "data": {
+                                                                                                    "id": "co5vgx24u400",
+                                                                                                    "created": 1667804828648,
+                                                                                                    "text": "UtScanParameter的成员变量：int gaind、int gs_smooth_、int sf_image_、USDevHandle *scan_、int eleAdjustIndex、int countT、int countR、int m_avgtimes、int eleFilter、int TRTimeSequence、bool m_cursorLineSwitch[4]",
+                                                                                                    "background": "#d99594"
+                                                                                                },
+                                                                                                "children": []
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "co5r591e98o0",
+                                                                                    "created": 1667792629915,
+                                                                                    "text": "oldFwdCount(0)",
+                                                                                    "background": "#d99594"
+                                                                                },
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "co5r5dut00o0",
+                                                                                    "created": 1667792640401,
+                                                                                    "text": "oldRvsCount(0)",
+                                                                                    "background": "#d99594"
+                                                                                },
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "co5r5nlurw80",
+                                                                                    "created": 1667792661627,
+                                                                                    "text": "m_horizontalMaxDataStart(0)",
+                                                                                    "background": "#d99594"
+                                                                                },
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "co5r5q0gjds0",
+                                                                                    "created": 1667792666864,
+                                                                                    "text": "m_horizontalMaxDataEnd(512)",
+                                                                                    "background": "#d99594"
+                                                                                },
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "co5r0ktxxtc0",
+                                                                                    "created": 1667792263765,
+                                                                                    "text": "USDevHandleProtect的成员变量：BYTE *pAWaveBuff、BYTE *pImageBuff、UtScanParameter* param_、unsigned int oldFwdCount、unsigned int oldRvsCount、int m_horizontalMaxDataStart、int m_horizontalMaxDataEnd",
+                                                                                    "background": "#d99594"
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "co5qybtff0w0",
+                                                                            "created": 1667792087416,
+                                                                            "text": "m_protect->param_->SetUtScan(this)",
+                                                                            "background": "#d99594"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "co5qygd6j600",
+                                                                            "created": 1667792097316,
+                                                                            "text": "USDevHandle的成员变量：USDevHandleProtect *m_protect",
+                                                                            "background": "#d99594"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "co5qir8zjj40",
+                                                                    "created": 1667790867181,
+                                                                    "text": "pUtScanHandle->init(MASK_SCAN_TYPE_AL) //A扫+线扫模式",
+                                                                    "background": "#d99594"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "co5qjmp0dnk0",
+                                                            "created": 1667790935630,
+                                                            "text": "UTParaManagerPrivate的成员变量：USDevHandle *pUtScanHandle;",
+                                                            "background": "#d99594"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "co5q7ov35jk0",
+                                            "created": 1667789999981,
+                                            "text": "USToolFactory::instance()",
+                                            "background": "#d99594"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "co5q7raysrk0",
+                                            "created": 1667790005295,
+                                            "text": "USToolFactory::instance().getTool(\"FreezeTool\")->execute(true)",
+                                            "background": "#d99594"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "co5q64pwq800",
+                    "created": 1667789877768,
+                    "text": "AnalyzerMainView w"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "co5q91xs9co0",
+                            "created": 1667790106806,
+                            "text": "this->initMenuActions()",
+                            "background": "#d99594"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "co5qampov4w0",
+                                    "created": 1667790230393,
+                                    "text": "onOpenDataFile()",
+                                    "background": "#d99594"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "co5q95w7xs00",
+                            "created": 1667790115419,
+                            "text": "this->initToolBar()",
+                            "background": "#d99594"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "co5qayg74v40",
+                                    "created": 1667790255941,
+                                    "text": "onOpenDataFile()",
+                                    "background": "#d99594"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co5qb3f1bps0",
+                                    "created": 1667790266755,
+                                    "text": "onFuncFreeze()",
+                                    "background": "#d99594"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
