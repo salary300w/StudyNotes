@@ -1,12 +1,35 @@
 - [QT学习笔记](#qt学习笔记)
   - [发布程序](#发布程序)
+    - [windows平台](#windows平台)
+    - [Linux平台](#linux平台)
   - [窗口](#窗口)
   - [信号和槽](#信号和槽)
   - [窗口设置](#窗口设置)
   - [对话框](#对话框)
 # QT学习笔记
 ## 发布程序
+### windows平台
 ```windeployqt *.exe```指令发布程序
+### Linux平台
+- 配置`linuxdeployqt`
+  - 安装`patchelf`和`cmake`，修改Qt环境变量。
+    - `sudo apt install patchelf`、`sudo apt install cmake`
+    - 编辑`.bashrc`文件，添加以下内容
+      - ```
+        export PATH=/home/cdk991014/Qt/5.15.2/gcc_64/bin:$PATH
+        export LD_LIBRARY_PATH=/home/cdk991014/Qt/5.15.2/gcc_64/lib:/usr/local/lib/Qt:$LD_LIBRARY_PATH
+        export QT_PLUGIN_PATH=/home/cdk991014/Qt/5.15.2/gcc_64/plugins:$QT_PLUGIN_PATH
+        export QML2_IMPORT_PATH=/home/cdk991014/Qt/5.15.2/gcc_64/qml:$QML2_IMPORT_PATH
+        ```
+        其中自定义的库文件放在`/usr/local/lib/Qt`目录下。
+  - 编译安装`linuxdeployqt`工具
+    - 从 `GitHub` 上 `clone linuxdeplouqt` 仓库。
+    - 修改`tools/linuxdeployqt/main.cpp`源码。
+      - 将200行附近的代码，关于glcv版本判断的else代码段注释掉！
+    - 在`linuxdeplouqt`目录下执行`cmake CmakeLists.txt`命令。
+    - 在`linuxdeplouqt`目录下执行`make`命令。在`tools/linuxdeployqt/`目录下生成可执行文件`linuxdeployqt`。
+    - 配置环境变量，将`linuxdeplouqt`移动到`/usr/local/bin/`目录下。
+  - 使用`linuxdeployqt $(AppName) -appimage`打包`Qt`程序。(过程中出现找不到的库需要手动安装)
 ## 窗口
 ```c++
 QPushButton* btn = new QPushButton; //创建按钮对象
