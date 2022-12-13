@@ -14,3 +14,4 @@ apt install libxcb-xkb1 -y
 apt install libxkbcommon-x11-0 -y
 apt install libgl1 -y
 apt install libfontconfig1 -y
+sudo apt install mesa-common-dev libglu1-mesa-dev -y
