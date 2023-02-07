@@ -1,0 +1,5 @@
+pthread_mutex_init(互斥量地址，互斥量的参数设置一般为null) 互斥量初始化
+pthread_mutex_destory(互斥量地址) 互斥量销毁
+pthread_mutex_lock(互斥量地址) 互斥量上锁，上锁不成功会阻塞
+pthread_mutex_trylock(互斥量地址) 互斥量尝试上锁，上锁不成功不会阻塞
+pthread_mutex_unlock(互斥量地址) 互斥量解锁
